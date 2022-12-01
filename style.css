@@ -1,0 +1,174 @@
+body {
+  margin: 0;
+  background-color: #ffffff;
+  font-family: "MaruBuri", serif;
+  font-size: 4vmin;
+  color: #000000;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.mt-1 {
+  margin-top: 1vmin;
+}
+
+.mt-5 {
+  margin-top: 5vmin;
+}
+
+.mt-10 {
+  margin-top: 10vmin;
+}
+
+.br-1 {
+  border-radius: 1vmin;
+}
+
+.br-3 {
+  border-radius: 3vmin;
+}
+
+.b-03 {
+  border: 0.3vmin solid #808080;
+}
+
+.bb-03 {
+  border-bottom: 0.3vmin solid #808080;
+}
+
+.w-6 {
+  width: 6vmin;
+}
+
+.w-15 {
+  width: 15vmin;
+}
+
+.w-24 {
+  width: 24vmin;
+}
+
+.w-30 {
+  width: 30vmin;
+}
+
+.w-40 {
+  width: 40vmin;
+}
+
+.w-60 {
+  width: 60vmin;
+}
+
+.w-65 {
+  width: 65vmin;
+}
+
+.w-80 {
+  width: 80vmin;
+}
+
+.w-100 {
+  width: 100vmin;
+}
+
+.h-6 {
+  height: 6vmin;
+}
+
+.h-10 {
+  height: 10vmin;
+}
+
+.h-40 {
+  height: 40vmin;
+}
+
+.h-60 {
+  height: 60vmin;
+}
+
+.h-80 {
+  height: 80vmin;
+}
+
+.p-1-2 {
+  padding: 1vmin 2vmin;
+}
+
+.p-15-10 {
+  padding: 15vmin 10vmin;
+}
+
+.pb-5 {
+  padding-bottom: 5vmin;
+}
+
+.bc-white {
+  background-color: #ffffff;
+}
+
+.bc-beige {
+  background-color: #fcf8f4;
+}
+
+.bc-pink {
+  background-color: #fcf0f0;
+}
+
+.ai-fs {
+  align-items: flex-start;
+}
+
+.fd-r {
+  flex-direction: row;
+}
+
+.jc-sb {
+  justify-content: space-between;
+}
+
+.ff-sans-serif {
+  font-family: "NanumBarunPen", sans-serif;
+}
+
+.ff-cursive {
+  font-family: "Ephesis", cursive;
+}
+
+.fs-3 {
+  font-size: 3vmin;
+}
+
+.fs-6 {
+  font-size: 6vmin;
+}
+
+.fs-10 {
+  font-size: 10vmin;
+}
+
+.fw-n {
+  font-weight: normal;
+}
+
+.c-gray {
+  color: #a0a0a0;
+}
+
+.c-black {
+  color: #000000;
+}
+
+.c-p {
+  cursor: pointer;
+}

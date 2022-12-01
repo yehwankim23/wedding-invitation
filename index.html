@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>모바일 청첩장</title>
+    <link rel="icon" href="images/icon.png" />
+    <link rel="stylesheet" href="https://hangeul.pstatic.net/hangeul_static/css/maru-buri.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ephesis" />
+    <link
+      rel="stylesheet"
+      href="https://hangeul.pstatic.net/hangeul_static/css/nanum-barun-pen.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=ea34a43f1bb28341f65031b415ac9f58"></script>
+    <script
+      src="https://t1.kakaocdn.net/kakao_js_sdk/2.1.0/kakao.min.js"
+      integrity="sha384-dpu02ieKC6NUeKFoGMOKz6102CLEWi9+5RQjWSV0ikYSFFd8M3Wp2reIcquJOemx"
+      crossorigin="anonymous"
+    ></script>
+    <script src="scripts/script.bundle.js" defer></script>
+  </head>
+  <body>
+    <div class="m-auto w-100 bc-pink">
+      <div class="p-15-10">
+        <span class="ff-cursive fs-10 c-gray">Wedding Invitation</span>
+        <div class="mt-10 fs-6">
+          <span>박주빈</span>
+          <span class="ff-cursive c-gray">and</span>
+          <span>이승후</span>
+        </div>
+        <img class="mt-10 w-80" src="images/sample.png" alt="사진" />
+        <div class="mt-10">
+          <span>2023년 4월 15일 토요일</span>
+          <span>오후 2시 30분</span>
+          <span>판교 W스퀘어컨벤션</span>
+        </div>
+      </div>
+      <div class="p-15-10 bc-beige">
+        <div class="bb-03 w-80 pb-5 ai-fs fs-6">
+          <span>두 사람, 결혼합니다</span>
+        </div>
+        <div class="mt-10">
+          <span>결혼식 오셔서 축하해 주세요.</span>
+          <span>결혼식 오셔서 축하해 주세요.</span>
+          <span>결혼식 오셔서 축하해 주세요.</span>
+          <span>결혼식 오셔서 축하해 주세요.</span>
+          <span>결혼식 오셔서 축하해 주세요.</span>
+        </div>
+        <div class="mt-10 w-40 fd-r jc-sb">
+          <div>
+            <span>박종국</span>
+            <span>한성숙</span>
+          </div>
+          <div>
+            <span>의 장남</span>
+          </div>
+          <div>
+            <span>박주빈</span>
+          </div>
+        </div>
+        <div class="mt-5 w-40 fd-r jc-sb">
+          <div>
+            <span>성이름</span>
+            <span>성이름</span>
+          </div>
+          <div>
+            <span>의 ㅇ녀</span>
+          </div>
+          <div>
+            <span>이승후</span>
+          </div>
+        </div>
+      </div>
+      <div class="p-15-10">
+        <div class="bb-03 w-80 pb-5 ai-fs fs-6">
+          <span>날짜</span>
+        </div>
+        <div class="mt-10 br-3 w-80 h-80 bc-white ff-sans-serif">
+          <div class="h-60 jc-sb">
+            <div>2023년 4월</div>
+            <div class="mt-5 w-60 h-6 fs-3 c-gray fd-r jc-sb">
+              <div class="w-6">
+                <span>일</span>
+              </div>
+              <div class="w-6">
+                <span>월</span>
+              </div>
+              <div class="w-6">
+                <span>화</span>
+              </div>
+              <div class="w-6">
+                <span>수</span>
+              </div>
+              <div class="w-6">
+                <span>목</span>
+              </div>
+              <div class="w-6">
+                <span>금</span>
+              </div>
+              <div class="w-6">
+                <span>토</span>
+              </div>
+            </div>
+            <div class="w-60 h-6 fd-r jc-sb">
+              <div class="w-6"></div>
+              <div class="w-6"></div>
+              <div class="w-6"></div>
+              <div class="w-6"></div>
+              <div class="w-6"></div>
+              <div class="w-6"></div>
+              <div class="w-6">
+                <span>1</span>
+              </div>
+            </div>
+            <div class="w-60 h-6 fd-r jc-sb">
+              <div class="w-6">
+                <span>2</span>
+              </div>
+              <div class="w-6">
+                <span>3</span>
+              </div>
+              <div class="w-6">
+                <span>4</span>
+              </div>
+              <div class="w-6">
+                <span>5</span>
+              </div>
+              <div class="w-6">
+                <span>6</span>
+              </div>
+              <div class="w-6">
+                <span>7</span>
+              </div>
+              <div class="w-6">
+                <span>8</span>
+              </div>
+            </div>
+            <div class="w-60 h-6 fd-r jc-sb">
+              <div class="w-6">
+                <span>9</span>
+              </div>
+              <div class="w-6">
+                <span>10</span>
+              </div>
+              <div class="w-6">
+                <span>11</span>
+              </div>
+              <div class="w-6">
+                <span>12</span>
+              </div>
+              <div class="w-6">
+                <span>13</span>
+              </div>
+              <div class="w-6">
+                <span>14</span>
+              </div>
+              <div class="br-3 w-6 h-6 bc-pink">
+                <span>15</span>
+              </div>
+            </div>
+            <div class="w-60 h-6 fd-r jc-sb">
+              <div class="w-6">
+                <span>16</span>
+              </div>
+              <div class="w-6">
+                <span>17</span>
+              </div>
+              <div class="w-6">
+                <span>18</span>
+              </div>
+              <div class="w-6">
+                <span>19</span>
+              </div>
+              <div class="w-6">
+                <span>20</span>
+              </div>
+              <div class="w-6">
+                <span>21</span>
+              </div>
+              <div class="w-6">
+                <span>22</span>
+              </div>
+            </div>
+            <div class="w-60 h-6 fd-r jc-sb">
+              <div class="w-6">
+                <span>23</span>
+              </div>
+              <div class="w-6">
+                <span>24</span>
+              </div>
+              <div class="w-6">
+                <span>25</span>
+              </div>
+              <div class="w-6">
+                <span>26</span>
+              </div>
+              <div class="w-6">
+                <span>27</span>
+              </div>
+              <div class="w-6">
+                <span>28</span>
+              </div>
+              <div class="w-6">
+                <span>29</span>
+              </div>
+            </div>
+            <div class="w-60 h-6 fd-r jc-sb">
+              <div class="w-6">
+                <span>30</span>
+              </div>
+              <div class="w-6"></div>
+              <div class="w-6"></div>
+              <div class="w-6"></div>
+              <div class="w-6"></div>
+              <div class="w-6"></div>
+              <div class="w-6"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="p-15-10 bc-beige">
+        <div class="bb-03 w-80 pb-5 ai-fs fs-6">
+          <span>갤러리</span>
+        </div>
+        <div class="mt-10 h-80 jc-sb">
+          <div class="w-80 fd-r jc-sb">
+            <img class="w-24" src="images/sample.png" alt="사진" />
+            <img class="w-24" src="images/sample.png" alt="사진" />
+            <img class="w-24" src="images/sample.png" alt="사진" />
+          </div>
+          <div class="w-80 fd-r jc-sb">
+            <img class="w-24" src="images/sample.png" alt="사진" />
+            <img class="w-24" src="images/sample.png" alt="사진" />
+            <img class="w-24" src="images/sample.png" alt="사진" />
+          </div>
+          <div class="w-80 fd-r jc-sb">
+            <img class="w-24" src="images/sample.png" alt="사진" />
+            <img class="w-24" src="images/sample.png" alt="사진" />
+            <img class="w-24" src="images/sample.png" alt="사진" />
+          </div>
+        </div>
+      </div>
+      <div class="p-15-10">
+        <div class="bb-03 w-80 pb-5 ai-fs fs-6">
+          <span>오시는 길</span>
+        </div>
+        <div class="mt-10">
+          <span>W스퀘어컨벤션</span>
+          <span>경기도 성남시 분당구 판교역로 226번길 16</span>
+        </div>
+        <div id="map" class="mt-10 w-80 h-80"></div>
+        <div class="mt-10 w-80">
+          <span>지하철 : 신분당선 판교역 1번 출구 도보 6분</span>
+          <span>버스 : 101번, 330번, 350번, 390번, 4000번</span>
+          <span>자가용 : 판교IC 좌회전 후 사거리 우회전</span>
+        </div>
+      </div>
+      <div class="p-15-10 bc-beige">
+        <div class="bb-03 w-80 pb-5 ai-fs fs-6">
+          <span>축하의 마음 전하기</span>
+        </div>
+        <div class="mt-10">
+          <span>축하의 마음을 담아 축의금을 전달해 보세요.</span>
+        </div>
+        <div class="mt-10 w-65 fd-r jc-sb">
+          <div class="h-40 jc-sb">
+            <div id="groom" class="account br-3 b-03 w-30 h-10 c-p">
+              <span>신랑 박주빈</span>
+            </div>
+            <div id="groomFather" class="account br-3 b-03 w-30 h-10 c-p">
+              <span>신랑 부 박종국</span>
+            </div>
+            <div id="groomMother" class="account br-3 b-03 w-30 h-10 c-p">
+              <span>신랑 모 한성숙</span>
+            </div>
+          </div>
+          <div class="h-40 jc-sb">
+            <div id="bride" class="account br-3 b-03 w-30 h-10 c-p">
+              <span>신부 이승후</span>
+            </div>
+            <div id="brideFather" class="account br-3 b-03 w-30 h-10 c-p">
+              <span>신부 부 성이름</span>
+            </div>
+            <div id="brideMother" class="account br-3 b-03 w-30 h-10 c-p">
+              <span>신부 모 성이름</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="p-15-10">
+        <div class="bb-03 w-80 pb-5 ai-fs fs-6">
+          <span>소식 공유하기</span>
+        </div>
+        <img id="share" class="mt-10 w-15 br-3 c-p" src="images/kakaotalk.png" alt="공유하기" />
+      </div>
+      <div class="p-15-10 bc-beige">
+        <div class="bb-03 w-80 pb-5 ai-fs fs-6">
+          <span>축하 메시지를 남겨주세요</span>
+        </div>
+        <div class="mt-10 ff-sans-serif">
+          <form id="form">
+            <div class="w-60 fd-r jc-sb">
+              <label for="name">이름</label>
+              <input
+                id="name"
+                class="br-1 b-03 w-40 p-1-2 ff-sans-serif fs-3"
+                type="text"
+                required
+              />
+            </div>
+            <div class="mt-1 w-60 fd-r jc-sb">
+              <label for="message">메시지</label>
+              <input
+                id="message"
+                class="br-1 b-03 w-40 p-1-2 ff-sans-serif fs-3"
+                type=""
+                required
+              />
+            </div>
+            <div class="mt-1 w-60 fd-r jc-sb">
+              <label for="password">비밀번호</label>
+              <input
+                id="password"
+                class="br-1 b-03 w-40 p-1-2 ff-sans-serif fs-3"
+                type="text"
+                required
+              />
+            </div>
+            <div class="mt-5">
+              <button
+                class="br-1 b-03 w-60 p-1-2 bc-beige ff-sans-serif fs-3 fw-n c-black c-p"
+                type="submit"
+              >
+                등록하기
+              </button>
+            </div>
+          </form>
+        </div>
+        <div id="messages" class="w-80 ff-sans-serif"></div>
+      </div>
+      <div class="p-15-10">
+        <div class="w-80 ff-cursive fs-10 c-gray">
+          <span>Thank you!</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
