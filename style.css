@@ -17,8 +17,20 @@ div {
   margin: auto;
 }
 
+.mt-5 {
+  margin-top: 5vmin;
+}
+
 .mt-10 {
   margin-top: 10vmin;
+}
+
+.bb-03 {
+  border-bottom: 0.3vmin solid #808080;
+}
+
+.w-40 {
+  width: 40vmin;
 }
 
 .w-80 {
@@ -33,8 +45,28 @@ div {
   padding: 15vmin 10vmin;
 }
 
+.pb-5 {
+  padding-bottom: 5vmin;
+}
+
+.bc-beige {
+  background-color: #fcf8f4;
+}
+
 .bc-pink {
   background-color: #fcf0f0;
+}
+
+.ai-fs {
+  align-items: flex-start;
+}
+
+.fd-r {
+  flex-direction: row;
+}
+
+.jc-sb {
+  justify-content: space-between;
 }
 
 .ff-cursive {
