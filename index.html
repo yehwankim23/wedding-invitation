@@ -13,6 +13,8 @@
       href="https://hangeul.pstatic.net/hangeul_static/css/nanum-barun-pen.css"
     />
     <link rel="stylesheet" href="style.css" />
+    <script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=ea34a43f1bb28341f65031b415ac9f58"></script>
+    <script src="script.js" defer></script>
   </head>
   <body>
     <div class="m-auto w-100 bc-pink">
@@ -234,6 +236,16 @@
             <img class="w-24" src="images/image.png" alt="사진" />
           </div>
         </div>
+      </div>
+      <div class="p-15-10">
+        <div class="bb-03 w-80 pb-5 ai-fs fs-6">
+          <span>오시는 길</span>
+        </div>
+        <div class="mt-10">
+          <span>장소 장소 장소 장소</span>
+          <span>주소 주소 주소 주소 주소</span>
+        </div>
+        <div id="map" class="mt-10 w-80 h-80"></div>
       </div>
     </div>
   </body>
