@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  background-color: #ffffff;
+  font-family: "MaruBuri", serif;
+  font-size: 4vmin;
+  color: #000000;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.mt-10 {
+  margin-top: 10vmin;
+}
+
+.w-80 {
+  width: 80vmin;
+}
+
+.w-100 {
+  width: 100vmin;
+}
+
+.p-15-10 {
+  padding: 15vmin 10vmin;
+}
+
+.bc-pink {
+  background-color: #fcf0f0;
+}
+
+.ff-cursive {
+  font-family: "Ephesis", cursive;
+}
+
+.fs-6 {
+  font-size: 6vmin;
+}
+
+.c-gray {
+  color: #c0c0c0;
+}
