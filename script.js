@@ -38,3 +38,11 @@ const ACCOUNTS = {
     );
   });
 });
+
+Kakao.init("ea34a43f1bb28341f65031b415ac9f58");
+
+document.getElementById("share").addEventListener("click", () => {
+  Kakao.Share.sendCustom({
+    templateId: 87412,
+  });
+});
