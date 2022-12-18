@@ -37,6 +37,10 @@ div {
   width: 6vmin;
 }
 
+.w-24 {
+  width: 24vmin;
+}
+
 .w-40 {
   width: 40vmin;
 }
