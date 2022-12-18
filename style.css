@@ -25,12 +25,24 @@ div {
   margin-top: 10vmin;
 }
 
+.br-3 {
+  border-radius: 3vmin;
+}
+
 .bb-03 {
   border-bottom: 0.3vmin solid #808080;
 }
 
+.w-6 {
+  width: 6vmin;
+}
+
 .w-40 {
   width: 40vmin;
+}
+
+.w-60 {
+  width: 60vmin;
 }
 
 .w-80 {
@@ -41,12 +53,28 @@ div {
   width: 100vmin;
 }
 
+.h-6 {
+  height: 6vmin;
+}
+
+.h-60 {
+  height: 60vmin;
+}
+
+.h-80 {
+  height: 80vmin;
+}
+
 .p-15-10 {
   padding: 15vmin 10vmin;
 }
 
 .pb-5 {
   padding-bottom: 5vmin;
+}
+
+.bc-white {
+  background-color: #ffffff;
 }
 
 .bc-beige {
@@ -69,8 +97,16 @@ div {
   justify-content: space-between;
 }
 
+.ff-sans-serif {
+  font-family: "NanumBarunPen", sans-serif;
+}
+
 .ff-cursive {
   font-family: "Ephesis", cursive;
+}
+
+.fs-3 {
+  font-size: 3vmin;
 }
 
 .fs-6 {
