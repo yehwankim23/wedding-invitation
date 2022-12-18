@@ -29,6 +29,10 @@ div {
   border-radius: 3vmin;
 }
 
+.b-03 {
+  border: 0.3vmin solid #808080;
+}
+
 .bb-03 {
   border-bottom: 0.3vmin solid #808080;
 }
@@ -41,12 +45,20 @@ div {
   width: 24vmin;
 }
 
+.w-30 {
+  width: 30vmin;
+}
+
 .w-40 {
   width: 40vmin;
 }
 
 .w-60 {
   width: 60vmin;
+}
+
+.w-65 {
+  width: 65vmin;
 }
 
 .w-80 {
@@ -59,6 +71,14 @@ div {
 
 .h-6 {
   height: 6vmin;
+}
+
+.h-10 {
+  height: 10vmin;
+}
+
+.h-40 {
+  height: 40vmin;
 }
 
 .h-60 {
@@ -119,4 +139,8 @@ div {
 
 .c-gray {
   color: #c0c0c0;
+}
+
+.c-p {
+  cursor: pointer;
 }
