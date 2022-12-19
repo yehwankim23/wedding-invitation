@@ -30,10 +30,10 @@ MARKER.setMap(MAP);
 MAP.addControl(new kakao.maps.ZoomControl(), kakao.maps.ControlPosition.RIGHT);
 
 const ACCOUNTS = {
-  groom: "성이름 ㅇㅇ은행 00000000000000",
+  groom: "박주빈 ㅇㅇ은행 00000000000000",
   groomFather: "성이름 ㅇㅇ은행 00000000000000",
   groomMother: "성이름 ㅇㅇ은행 00000000000000",
-  bride: "성이름 ㅇㅇ은행 00000000000000",
+  bride: "이승후 ㅇㅇ은행 00000000000000",
   brideFather: "성이름 ㅇㅇ은행 00000000000000",
   brideMother: "성이름 ㅇㅇ은행 00000000000000",
 };
