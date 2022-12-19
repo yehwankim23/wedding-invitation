@@ -17,12 +17,20 @@ div {
   margin: auto;
 }
 
+.mt-1 {
+  margin-top: 1vmin;
+}
+
 .mt-5 {
   margin-top: 5vmin;
 }
 
 .mt-10 {
   margin-top: 10vmin;
+}
+
+.br-1 {
+  border-radius: 1vmin;
 }
 
 .br-3 {
@@ -93,6 +101,10 @@ div {
   height: 80vmin;
 }
 
+.p-1-2 {
+  padding: 1vmin 2vmin;
+}
+
 .p-15-10 {
   padding: 15vmin 10vmin;
 }
@@ -141,8 +153,16 @@ div {
   font-size: 6vmin;
 }
 
+.fw-n {
+  font-weight: normal;
+}
+
 .c-gray {
   color: #c0c0c0;
+}
+
+.c-black {
+  color: #000000;
 }
 
 .c-p {

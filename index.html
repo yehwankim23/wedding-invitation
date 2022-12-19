@@ -19,7 +19,7 @@
       integrity="sha384-dpu02ieKC6NUeKFoGMOKz6102CLEWi9+5RQjWSV0ikYSFFd8M3Wp2reIcquJOemx"
       crossorigin="anonymous"
     ></script>
-    <script src="script.js" defer></script>
+    <script src="bundle.js" defer></script>
   </head>
   <body>
     <div class="m-auto w-100 bc-pink">
@@ -289,6 +289,51 @@
           <span>소식 공유하기</span>
         </div>
         <img id="share" class="mt-10 w-15 br-3 c-p" src="kakaotalk.png" alt="공유하기" />
+      </div>
+      <div class="p-15-10 bc-beige">
+        <div class="bb-03 w-80 pb-5 ai-fs fs-6">
+          <span>축하 메시지를 남겨주세요</span>
+        </div>
+        <div class="mt-10 ff-sans-serif">
+          <form id="form">
+            <div class="w-60 fd-r jc-sb">
+              <label for="name">이름</label>
+              <input
+                id="name"
+                class="br-1 b-03 w-40 p-1-2 ff-sans-serif fs-3"
+                type="text"
+                required
+              />
+            </div>
+            <div class="mt-1 w-60 fd-r jc-sb">
+              <label for="message">메시지</label>
+              <input
+                id="message"
+                class="br-1 b-03 w-40 p-1-2 ff-sans-serif fs-3"
+                type=""
+                required
+              />
+            </div>
+            <div class="mt-1 w-60 fd-r jc-sb">
+              <label for="password">비밀번호</label>
+              <input
+                id="password"
+                class="br-1 b-03 w-40 p-1-2 ff-sans-serif fs-3"
+                type="text"
+                required
+              />
+            </div>
+            <div class="mt-5">
+              <button
+                class="br-1 b-03 w-60 p-1-2 bc-beige ff-sans-serif fs-3 fw-n c-black c-p"
+                type="submit"
+              >
+                등록하기
+              </button>
+            </div>
+          </form>
+        </div>
+        <div id="messages" class="w-80 ff-sans-serif"></div>
       </div>
     </div>
   </body>

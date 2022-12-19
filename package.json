@@ -1,0 +1,26 @@
+{
+  "name": "wedding-invitation",
+  "version": "1.0.0",
+  "description": "모바일 청첩장",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yehwankim23/wedding-invitation.git"
+  },
+  "author": "김예환 Ye-Hwan Kim (Sam)",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/yehwankim23/wedding-invitation/issues"
+  },
+  "homepage": "https://github.com/yehwankim23/wedding-invitation#readme",
+  "dependencies": {
+    "firebase": "9.x"
+  },
+  "devDependencies": {
+    "webpack": "5.x",
+    "webpack-cli": "5.x"
+  }
+}
