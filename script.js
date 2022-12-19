@@ -12,7 +12,7 @@ import {
   doc,
 } from "firebase/firestore";
 
-const LOCATION = new kakao.maps.LatLng(33.450701, 126.570667);
+const LOCATION = new kakao.maps.LatLng(37.400555, 127.111465);
 const MAP = new kakao.maps.Map(document.getElementById("map"), {
   center: LOCATION,
 });
