@@ -153,12 +153,16 @@ div {
   font-size: 6vmin;
 }
 
+.fs-10 {
+  font-size: 10vmin;
+}
+
 .fw-n {
   font-weight: normal;
 }
 
 .c-gray {
-  color: #c0c0c0;
+  color: #808080;
 }
 
 .c-black {
