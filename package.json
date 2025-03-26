@@ -2,6 +2,7 @@
   "name": "wedding-invitation",
   "version": "1.0.0",
   "dependencies": {
+    "axios": "latest",
     "firebase": "latest"
   },
   "devDependencies": {
