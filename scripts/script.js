@@ -61,13 +61,13 @@ document.querySelector("#share").addEventListener("click", () => {
 });
 
 const firebaseApp = initializeApp({
-  apiKey: "AIzaSyDK2a3VYeYctmuCDnZYdcSIfjNVUeJvmWQ",
+  apiKey: "AIzaSyDuS_y2dS_StuWASf9uh2OXSDsZIjwNXk8",
   authDomain: "wedding-invitation-9311b.firebaseapp.com",
   projectId: "wedding-invitation-9311b",
-  storageBucket: "wedding-invitation-9311b.appspot.com",
+  storageBucket: "wedding-invitation-9311b.firebasestorage.app",
   messagingSenderId: "166455853669",
-  appId: "1:166455853669:web:11ffd8b897f80216e1bc8c",
-  measurementId: "G-2RQXF8K1HC",
+  appId: "1:166455853669:web:8cc7083f47d96f11e1bc8c",
+  measurementId: "G-Q8GCJSKS9X",
 });
 
 const analytics = getAnalytics(firebaseApp);
