@@ -1,3 +1,4 @@
+import axios from "axios";
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 import {
@@ -60,15 +61,9 @@ document.querySelector("#share").addEventListener("click", () => {
   });
 });
 
-const firebaseApp = initializeApp({
-  apiKey: "AIzaSyDK2a3VYeYctmuCDnZYdcSIfjNVUeJvmWQ",
-  authDomain: "wedding-invitation-9311b.firebaseapp.com",
-  projectId: "wedding-invitation-9311b",
-  storageBucket: "wedding-invitation-9311b.appspot.com",
-  messagingSenderId: "166455853669",
-  appId: "1:166455853669:web:11ffd8b897f80216e1bc8c",
-  measurementId: "G-2RQXF8K1HC",
-});
+const firebaseApp = initializeApp(
+  (await axios.get("https://tokens.yehwan.kim/tokens")).data.firebase
+);
 
 const analytics = getAnalytics(firebaseApp);
 const firestore = getFirestore(firebaseApp);
